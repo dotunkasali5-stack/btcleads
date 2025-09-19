@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Capture leads for your digital marketing services">
+    <title>Digital Marketing Leads</title>
+    <style>
+        /* Reset & Basic Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        /* Header */
+        header {
+            background-color: #1f2937;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #3b82f6;
+            color: white;
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        .hero button {
+            background-color: #facc15;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .hero button:hover {
+            background-color: #eab308;
+        }
+
+        /* Form Section */
+        .form-section {
+            background-color: white;
+            max-width: 500px;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .form-section h3 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-section input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+        }
+
+        .form-section button {
+            width: 100%;
+            padding: 12px;
+            background-color: #3b82f6;
+            color: white;
+            border: none;
+            font-size: 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .form-section button:hover {
+            background-color: #2563eb;
+        }
+
+        /* Features Section */
+        .features {
+            max-width: 900px;
+            margin: 50px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        .feature {
+            background-color: white;
+            flex: 1 1 250px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .feature h4 {
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Your Digital Marketing Leads</h1>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Boost Your Business Online!</h2>
+        <p>Sign up to get exclusive tips and services for digital marketing growth.</p>
+        <button onclick="document.getElementById('lead-form').scrollIntoView({ behavior: 'smooth' })">Get Started</button>
+    </section>
+
+    <!-- Lead Capture Form -->
+    <section class="form-section" id="lead-form">
+        <h3>Join Our List</h3>
+        <form action="https://formspree.io/f/mgvlgakw" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="_replyto" placeholder="Your Email" required>
+            <input type="tel" name="phone" placeholder="Your Phone Number">
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Features / Benefits -->
+    <section class="features">
+        <div class="feature">
+            <h4>Grow Your Audience</h4>
+            <p>Reach more potential customers through effective digital strategies.</p>
+        </div>
+        <div class="feature">
+            <h4>Expert Tips</h4>
+            <p>Learn proven methods to increase engagement and sales online.</p>
+        </div>
+        <div class="feature">
+            <h4>Free Resources</h4>
+            <p>Get access to free tools, guides, and insights for marketing success.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 BTC MEDIA. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
